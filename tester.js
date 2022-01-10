@@ -6,7 +6,5 @@ const sayHello = (arg) => {
 // exports.greeting = sayHello;
 // exports.fullName = myName;
 
-module.exports = {
-    greeting: sayHello,
-    fullName: myName,
-}
+exports.greeting = sayHello;
+exports.fullName = myName;
